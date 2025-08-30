@@ -4,8 +4,9 @@
 :root {
   --color-principal: #09c269;
   --color-secundario: #f5f5ff;
-  --color-texto: #333;
+  --color-texto: #FAFAFA;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -18,9 +19,51 @@ html {
 }
 
 body {
-    background: #ffffff;
+    background: #121212;
     background-size: cover;
     background-position: center;
     margin: 0;
     padding: 0;
+}
+@font-face {
+  font-family: 'ProggyVector';
+  src: url('fonts/ProggyVector-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+ul{
+  text-decoration: none;
+}
+h1, h2, h3, p{
+  color: var(--color-texto) ;
+}
+
+h4 {
+  font-family: 'ProggyVector', monospace;
+}
+header{
+  width: 100%;
+  padding: 20px 80px;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+}
+
+.social{
+  display: flex;
+  gap: 20px;
+}
+.social i{
+  color: white;
+  font-size: 28px;
+}
+
+
+.container-portada{
+  height: 100vh;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  align-items: center;
 }
