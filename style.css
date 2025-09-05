@@ -102,9 +102,9 @@ body {
 .lado nav ul li a {
   text-decoration: none;
   color: var(--principal);
-  font-family: var(--fuente);
   position: relative;
   padding-left: 25px; 
+  font-size: 17px;
   transition: all 200ms ease-in-out;
 }
 
@@ -256,7 +256,7 @@ footer i{
     margin-bottom: 10px;
 }
 footer p{
-    width: 400px;
+    max-width: 400px;
     text-decoration: none;
 }
 
@@ -284,6 +284,10 @@ footer p{
     align-items: center;
     text-align: center;
     padding-top: 7rem;
+  }
+  .lado nav ul li a{
+    font-size: 19px;
+    font-weight: 500;
   }
   .item {
     padding-left: 0;
